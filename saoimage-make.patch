@@ -7,8 +7,8 @@
 -SAOBINDIR = $(ROOT)/usr/local/bin/
 -SAOMANDIR = $(ROOT)/usr/local/man/man1/
 -IMTRCDIR  = $(ROOT)/usr/local/lib/
-+SAOBINDIR = $(ROOT)/usr/X11R6/bin/
-+SAOMANDIR = $(ROOT)/usr/X11R6/man/man1/
++SAOBINDIR = $(ROOT)/usr/bin/
++SAOMANDIR = $(ROOT)/usr/share/man/man1/
 +IMTRCDIR  = $(ROOT)/etc/
  
  IMTOOLRC  = $(IMTRCDIR)imtoolrc

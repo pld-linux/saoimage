@@ -1,8 +1,8 @@
 Summary:	SAOimage - displays astronomical images on X11 Window System
 Summary(pl):	SAOimage - program wy¶wietlaj±cy obrazy astronomiczne pod X11 Window System
 Name:		saoimage
-Version:	1.31.1
-Release:	2
+Version:	1.33.2
+Release:	1
 License:	Free, only Copyright must be preserved
 Group:		X11/Applications/Graphics
 Source0:	ftp://cfa-ftp.harvard.edu/pub/gsc/SAOimage/%{name}-%{version}.tar.gz
@@ -10,7 +10,6 @@ Patch0:		%{name}-make.patch
 URL:		http://tdc-www.harvard.edu/software/saoimage.html
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 SAOimage is a program which displays astronomical images on the X11
