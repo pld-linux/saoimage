@@ -1,0 +1,24 @@
+--- saoimage-1.31.1/makefile.linux.orig	Mon Dec 10 19:15:08 2001
++++ saoimage-1.31.1/makefile.linux	Sun Jul 14 18:06:39 2002
+@@ -42,9 +42,9 @@
+ # FBCONFIG_2, which is set to the value of IMTOOLRC in the definition of
+ # the CFLAGS macro below.)
+ 
+-SAOBINDIR = $(ROOT)/usr/local/bin/
+-SAOMANDIR = $(ROOT)/usr/local/man/man1/
+-IMTRCDIR  = $(ROOT)/usr/local/lib/
++SAOBINDIR = $(ROOT)/usr/X11R6/bin/
++SAOMANDIR = $(ROOT)/usr/X11R6/man/man1/
++IMTRCDIR  = $(ROOT)/etc/
+ 
+ IMTOOLRC  = $(IMTRCDIR)imtoolrc
+ FIFO_I    = $(ROOT)/dev/imt1i
+@@ -99,7 +99,7 @@
+ XLIB = -lX11 -L/usr/X11R6/lib
+ #XLIB = -lX11			# most (if not all) distributions need X11R6/lib
+ #F77LIB = -lF77 -lI77 -lU77
+-F77LIB = -lf2c
++F77LIB = -lg2c
+ #LDFLAGS = -Bstatic
+ 
+ # END OF INSTALLATION DEPENDENT SETUP. ========================================
