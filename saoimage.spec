@@ -6,6 +6,7 @@ Release:	1
 License:	Free, only Copyright must be preserved
 Group:		X11/Applications/Graphics
 Source0:	ftp://cfa-ftp.harvard.edu/pub/gsc/SAOimage/%{name}-%{version}.tar.gz
+# Source0-md5:	1b8fc27fb80e9dead6341e0929c09dc0
 Patch0:		%{name}-make.patch
 URL:		http://tdc-www.harvard.edu/software/saoimage.html
 BuildRequires:	XFree86-devel
