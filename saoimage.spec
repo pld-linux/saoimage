@@ -11,8 +11,6 @@ URL:		http://tdc-www.harvard.edu/software/saoimage.html
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 SAOimage is a program which displays astronomical images on the X11
