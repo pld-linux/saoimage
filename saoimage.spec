@@ -52,5 +52,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc COPYING NEWS README doc/*.{txt,ps,code}
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
-%config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/imtoolrc
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/imtoolrc
 %attr(666,root,root) /dev/imt*
