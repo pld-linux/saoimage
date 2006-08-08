@@ -24,7 +24,7 @@ binarne obrazy o rozmiarze i typie danych podanych z linii poleceñ.
 
 %prep
 %setup -q
-%patch -p1
+%patch0 -p1
 
 %build
 %{__make} linux \
