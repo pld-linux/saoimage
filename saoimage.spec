@@ -1,5 +1,5 @@
 Summary:	SAOimage - displays astronomical images on X11 Window System
-Summary(pl.UTF-8):   SAOimage - program wyświetlający obrazy astronomiczne pod X11 Window System
+Summary(pl.UTF-8):	SAOimage - program wyświetlający obrazy astronomiczne pod X11 Window System
 Name:		saoimage
 Version:	1.33.2
 Release:	1
