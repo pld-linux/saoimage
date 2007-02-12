@@ -1,5 +1,5 @@
 Summary:	SAOimage - displays astronomical images on X11 Window System
-Summary(pl):	SAOimage - program wy∂wietlaj±cy obrazy astronomiczne pod X11 Window System
+Summary(pl.UTF-8):   SAOimage - program wy≈õwietlajƒÖcy obrazy astronomiczne pod X11 Window System
 Name:		saoimage
 Version:	1.33.2
 Release:	1
@@ -17,10 +17,10 @@ SAOimage is a program which displays astronomical images on the X11
 Window system. It can display FITS and IRAF .imh as well as binary
 images of a size and data type specified on the command line.
 
-%description -l pl
-SAOimage to program do wy∂wietlania obrazÛw astronomicznych pod X11
-Window System. Moøe wy∂wietlaÊ formaty FITS i IRAF .imh, a takøe
-binarne obrazy o rozmiarze i typie danych podanych z linii poleceÒ.
+%description -l pl.UTF-8
+SAOimage to program do wy≈õwietlania obraz√≥w astronomicznych pod X11
+Window System. Mo≈ºe wy≈õwietlaƒá formaty FITS i IRAF .imh, a tak≈ºe
+binarne obrazy o rozmiarze i typie danych podanych z linii polece≈Ñ.
 
 %prep
 %setup -q
